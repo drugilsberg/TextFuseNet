@@ -1,7 +1,7 @@
 // Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 #pragma once
 
-ifndef AT_CHECK
+#ifndef AT_CHECK
 #define AT_CHECK TORCH_CHECK 
 #endif
 

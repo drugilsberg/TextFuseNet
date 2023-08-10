@@ -8,6 +8,10 @@
 // https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/blob/mmdetection/mmdet/ops/dcn/src/deform_conv_cuda.c
 // Original license: Apache 2.0
 
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
+
 #include <torch/extension.h>
 
 #include "deform_conv.h"
